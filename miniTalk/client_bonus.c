@@ -94,6 +94,7 @@ void	sending_char_by_char(char message_char, int id)
 		}
 		bits++;
 		usleep(300);
+		usleep(300);
 	}
 }
 
